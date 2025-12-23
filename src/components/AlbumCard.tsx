@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 // src/components/AlbumCard.tsx
 import React from "react";
-import { Song } from "@/data/songs";
+import { Song } from "@/types";
 import { motion } from "framer-motion"; // <-- Import ini
 
 interface AlbumCardProps {

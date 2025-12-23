@@ -1,13 +1,4 @@
-// src/data/songs.ts
-
-export interface Song {
-  id: number;
-  title: string;
-  artist: string;
-  cover: string;
-  src: string;
-  lrc: string;
-}
+import { Song } from "@/types";
 
 export const songs: Song[] = [
   {
