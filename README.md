@@ -29,11 +29,10 @@
 ## 📸 Screenshots
 
 <div align="center">
-  <img src="public/desktop.png" alt="Desktop View" width="700" />
-</div>
+<img width="578" height="770" alt="Image" src="https://github.com/user-attachments/assets/b40c1e6a-db0c-4970-a64e-fdca3af71bf5" />
 
 <div align="center">
-  <img src="public/onemusic.jpg" alt="Mobile View" width="300" />
+  <img width="1164" height="902" alt="Image" src="https://github.com/user-attachments/assets/77602984-1120-4518-9c81-1065b60bd560" />
 </div>
 
 <br />
