@@ -8,7 +8,7 @@ export default function Footer() {
       </h3>
       <p className="text-white/40 text-sm mb-6 max-w-md mx-auto">
         Music is a universal language that brings people together. Enjoy your
-        favorite tunes with One Music.
+        favorite songs with One Music.
       </p>
       <div className="flex justify-center gap-6 text-white/60 mb-4">
         <a

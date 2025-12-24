@@ -168,7 +168,6 @@ export default function FullPlayer({
         >
           {/* BACKGROUND */}
           <div className="absolute inset-0 overflow-hidden pointer-events-none">
-            {/* FIX: Tambah tanda kutip di dalam url('...') biar aman dari spasi */}
             <div
               className="absolute inset-0 bg-cover bg-center blur-[80px] opacity-50 scale-150 animate-pulse-slow"
               style={{ backgroundImage: `url('${currentSong.cover}')` }}
@@ -196,14 +195,13 @@ export default function FullPlayer({
             </button>
           </div>
 
-          {/* MAIN CONTENT (FIXED OVERFLOW) */}
-          <div className="relative z-10 flex-1 flex flex-col lg:flex-row lg:items-center lg:justify-center px-6 pb-8 gap-6 lg:gap-20 max-w-7xl mx-auto w-full overflow-y-auto lg:overflow-hidden scrollbar-hide">
-            {/* Ubah justify-center jadi justify-start di mobile biar gak kepotong atasnya */}
+          {/* MAIN CONTENT (FIXED: ALLOW SCROLL ON DESKTOP) */}
+          {/* Hapus 'lg:overflow-hidden' dan ganti 'lg:justify-center' jadi 'lg:justify-center' tapi aman */}
+          <div className="relative z-10 flex-1 flex flex-col lg:flex-row lg:items-center lg:justify-center px-6 pb-8 gap-6 lg:gap-20 max-w-7xl mx-auto w-full overflow-y-auto scrollbar-hide">
             <div className="flex-none w-full lg:w-480px flex flex-col justify-start lg:justify-center max-w-md mx-auto lg:mx-0 pt-4 lg:pt-0">
               {/* COVER */}
               <motion.div
                 layoutId={`cover-${currentSong.id}`}
-                // Tambah min-h biar gak gepeng pas layar pendek
                 className="w-full aspect-square max-h-350px lg:max-h-none mx-auto rounded-2xl md:rounded-32px overflow-hidden shadow-2xl border border-white/10 mb-8 relative shrink-0"
               >
                 <img
@@ -366,7 +364,7 @@ export default function FullPlayer({
                                     ${
                                       i === activeLyricIndex
                                         ? "text-xl md:text-2xl text-white drop-shadow-md"
-                                        : "text-lg md:text-1xl text-white hover:text-white/60"
+                                        : "text-lg md:text-xl text-white hover:text-white/60"
                                     }
                                 `}
                       onClick={() => onSeek(line.time)}
