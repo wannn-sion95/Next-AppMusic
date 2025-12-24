@@ -84,13 +84,14 @@ Follow these steps to run the project locally.
 
 5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-6.  Thank You
 
+6.  ## Thank You
+<br />
 ## 📂 Project Structure
 
 <br />
 
-```bash
+bash
 ├── public/           # Static assets (images, music, lyrics)
 ├── src/
 │   ├── app/          # Next.js App Router pages
