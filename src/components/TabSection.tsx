@@ -9,7 +9,7 @@ export default function TabSection({
   activeTab,
   setActiveTab,
 }: TabSectionProps) {
-  const tabs = ["All Songs", "Favorites", "Top Charts", "Genres"];
+  const tabs = ["All Songs", "Favorites","Genres"];
 
   return (
     <div className="flex items-center gap-6 mb-6 overflow-x-auto scrollbar-hide">

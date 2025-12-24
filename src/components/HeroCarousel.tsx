@@ -34,7 +34,7 @@ export default function HeroCarousel({ songs, onPlay }: HeroCarouselProps) {
   const currentSong = featuredSongs[currentIndex];
 
   return (
-    <div className="relative w-full h-100 md:h-95 mb-8 group">
+    <div className="relative w-full h-80 md:h-85 mb-8 group">
       {/* AREA GAMBAR & ANIMASI */}
       <div className="relative w-full h-full rounded-[40px] overflow-hidden shadow-2xl border border-white/10">
         <AnimatePresence mode="wait">

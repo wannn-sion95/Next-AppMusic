@@ -86,7 +86,7 @@ export default function Home() {
       <div className="h-screen w-full bg-[#09090b] flex flex-col items-center justify-center text-white">
         <div className="w-12 h-12 border-4 border-[#22c527] border-t-transparent rounded-full animate-spin mb-4"></div>
         <p className="animate-pulse tracking-widest text-xs font-bold uppercase">
-          Loading Library...
+          Loading One Music...
         </p>
       </div>
     );

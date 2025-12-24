@@ -170,13 +170,12 @@ export default function FullPlayer({
             >
               <i className="ri-arrow-down-s-line text-2xl"></i>
             </button>
-            <div className="flex flex-col items-center mt-2 mb-1">
+            <div className="flex flex-col items-center mt-2 mb-2">
               <div className="w-10 h-1 bg-white/20 rounded-full mb-2 lg:hidden"></div>
               <span className="text-[10px] md:text-lg font-bold tracking-[2px] uppercase text-white/50 mb-0.5">
                 Now Playing
               </span>
               {/* Tambahan: Judul di Header (Mobile Only) biar tau lagu apa kalau scroll ke lirik */}
-             
             </div>
             <button className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center active:scale-90 transition hover:bg-white/20">
               <i className="ri-more-fill text-xl"></i>
@@ -304,7 +303,7 @@ export default function FullPlayer({
                   </div>
 
                   {/* VOLUME (Desktop Only) */}
-                  <div className="hidden lg:flex items-center gap-3 px-18 mt-10 group">
+                  <div className="hidden lg:flex items-center gap-3 px-25 mt-3 group">
                     <i
                       onClick={() => onVolumeChange(volume === 0 ? 1 : 0)}
                       className={`cursor-pointer text-white/50 hover:text-white transition ri-${
@@ -328,7 +327,7 @@ export default function FullPlayer({
                 </div>
 
                 {/* KANAN: Lirik (Desktop & Mobile Scroll Down) */}
-                <div className="flex-none w-full lg:w-112.5 h-75 lg:h-150 relative bg-white/5 border border-white/5 rounded-2xl lg:bg-transparent lg:border-none lg:rounded-none overflow-hidden mt-8 lg:mt-0">
+                <div className="flex-none w-full lg:w-112.5 h-45 lg:h-150 relative bg-white/2 border border-white/3 rounded-4xl lg:bg-transparent lg:border-none lg:rounded-none overflow-hidden mt-4 lg:mt-0">
                   <div
                     ref={lyricsContainerRef}
                     // Tambahkan class 'mask-gradient-vertical' jika sudah ada di global css
