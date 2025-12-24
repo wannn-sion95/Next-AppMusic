@@ -54,7 +54,7 @@ Follow these steps to run the project locally.
 
 ### Prerequisites
 
-* Node.js (v18 or higher)
+* Node.js (v16 or higher)
 * npm / yarn
 
 ### Installation
