@@ -97,5 +97,3 @@ Follow these steps to run the project locally.
 │   └── types/        # TypeScript interfaces
 └── ...
 ```
-
-## Thanks You
