@@ -96,3 +96,8 @@ Follow these steps to run the project locally.
 │   ├── lib/          # Supabase client configuration
 │   └── types/        # TypeScript interfaces
 └── ...
+```
+
+<br/>
+
+## Thanks You
