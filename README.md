@@ -88,19 +88,3 @@ Follow these steps to run the project locally.
 
 6.  ## Thank You
 
-   
-<br />
-## 📂 Project Structure
-
-<br />
-
-```
-bash
-├── public/           # Static assets (images, music, lyrics)
-├── src/
-│   ├── app/          # Next.js App Router pages
-│   ├── components/   # Reusable UI components (FullPlayer, Sidebar, etc.)
-│   ├── lib/          # Supabase client configuration
-│   └── types/        # TypeScript interfaces
-└── ...
-
