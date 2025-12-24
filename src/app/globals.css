@@ -110,3 +110,21 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #22c527; /* Jadi hijau pas di-hover */
 }
+
+/* Di src/app/globals.css */
+.mask-gradient-vertical {
+  mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to bottom,
+    transparent 0%,
+    black 15%,
+    black 85%,
+    transparent 100%
+  );
+}
