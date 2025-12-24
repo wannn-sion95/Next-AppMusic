@@ -84,6 +84,8 @@ Follow these steps to run the project locally.
 
 5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+6.  ## Thanks You
+
 <br />
 
 ## 📂 Project Structure
@@ -96,4 +98,4 @@ Follow these steps to run the project locally.
 │   ├── lib/          # Supabase client configuration
 │   └── types/        # TypeScript interfaces
 └── ...
-```
+
