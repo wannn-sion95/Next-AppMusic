@@ -84,13 +84,17 @@ Follow these steps to run the project locally.
 
 5.  Open [http://localhost:3000](http://localhost:3000) in your browser.
 
+<br/>
 
 6.  ## Thank You
+
+   
 <br />
 ## 📂 Project Structure
 
 <br />
 
+```
 bash
 ├── public/           # Static assets (images, music, lyrics)
 ├── src/
