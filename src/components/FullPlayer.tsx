@@ -163,19 +163,18 @@ export default function FullPlayer({
           </div>
 
           {/* HEADER */}
-          <div className="relative z-20 flex-none flex items-center justify-between px-6 py-4 lg:py-6 cursor-default lg:cursor-auto">
+          <div className="relative z-20 flex-none flex items-center justify-between px-4 py-2 lg:py-6 cursor-default lg:cursor-auto">
             <button
               onClick={onClose}
               className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center active:scale-90 transition hover:bg-white/20"
             >
-              <i className="ri-arrow-down-s-line text-2xl"></i>
+              <i className="ri-arrow-left-s-line text-2xl"></i>
             </button>
-            <div className="flex flex-col items-center mt-2 mb-2">
+            <div className="flex flex-col items-center mt-7 mb-1">
               <div className="w-10 h-1 bg-white/20 rounded-full mb-2 lg:hidden"></div>
-              <span className="text-[10px] md:text-lg font-bold tracking-[2px] uppercase text-white/50 mb-0.5">
+              <span className="text-[10px] md:text-2xl font-bold tracking-[2px] uppercase text-white/50 mb-0.5">
                 Now Playing
               </span>
-              {/* Tambahan: Judul di Header (Mobile Only) biar tau lagu apa kalau scroll ke lirik */}
             </div>
             <button className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center active:scale-90 transition hover:bg-white/20">
               <i className="ri-more-fill text-xl"></i>
@@ -327,13 +326,13 @@ export default function FullPlayer({
                 </div>
 
                 {/* KANAN: Lirik (Desktop & Mobile Scroll Down) */}
-                <div className="flex-none w-full lg:w-112.5 h-45 lg:h-150 relative bg-white/2 border border-white/3 rounded-4xl lg:bg-transparent lg:border-none lg:rounded-none overflow-hidden mt-4 lg:mt-0">
+                <div className="flex-none w-full lg:w-112.5 h-40 lg:h-150 relative bg-white/2 border border-white/3 rounded-4xl lg:bg-transparent lg:border-none lg:rounded-none overflow-hidden mt-1 lg:mt-0">
                   <div
                     ref={lyricsContainerRef}
                     // Tambahkan class 'mask-gradient-vertical' jika sudah ada di global css
                     className="w-full h-full overflow-y-auto scrollbar-hide px-6 py-4 mask-gradient-vertical"
                   >
-                    <div className="h-25 lg:h-62.5"></div>
+                    <div className="h-0 lg:h-62.5"></div>
                     {lyrics.length > 0 ? (
                       lyrics.map((line, i) => (
                         <motion.p

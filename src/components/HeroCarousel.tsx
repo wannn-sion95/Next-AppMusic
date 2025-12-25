@@ -34,7 +34,7 @@ export default function HeroCarousel({ songs, onPlay }: HeroCarouselProps) {
   const currentSong = featuredSongs[currentIndex];
 
   return (
-    <div className="relative w-full h-80 md:h-85 mb-8 group">
+    <div className="relative w-full h-75 md:h-65 mb-8 group">
       {/* AREA GAMBAR & ANIMASI */}
       <div className="relative w-full h-full rounded-[40px] overflow-hidden shadow-2xl border border-white/10">
         <AnimatePresence mode="wait">
@@ -68,22 +68,22 @@ export default function HeroCarousel({ songs, onPlay }: HeroCarouselProps) {
             <span className="inline-block px-3 py-1 rounded-full bg-[#22c527] text-black text-xs font-bold tracking-widest mb-4 uppercase">
               Popular Now
             </span>
-            <h2 className="text-4xl md:text-6xl font-black text-white mb-2 tracking-tight max-w-2xl leading-none drop-shadow-lg">
+            <h2 className="text-2xl md:text-6xl font-black text-white mb-2 tracking-tight max-w-2xl leading-none drop-shadow-lg">
               {currentSong.title}
             </h2>
-            <p className="text-white/80 text-xl md:text-2xl font-medium mb-8">
+            <p className="text-white/80 text-l md:text-2xl font-medium mb-8">
               {currentSong.artist}
             </p>
 
             <div className="flex gap-4">
               <button
                 onClick={() => onPlay(currentSong)}
-                className="px-8 py-3 bg-[#22c527] hover:bg-[#1fbd24] text-black font-bold rounded-full transition transform hover:scale-105 flex items-center gap-2 shadow-[0_0_20px_rgba(34,197,39,0.4)]"
+                className="px-4 py-2 bg-[#22c527] hover:bg-[#1fbd24] text-black font-bold rounded-full transition transform hover:scale-105 flex items-center gap-2 shadow-[0_0_20px_rgba(34,197,39,0.4)]"
               >
-                <i className="ri-play-fill text-xl"></i> Listen Now
+                <i className="ri-play-fill text-l"></i> Listen Now
               </button>
               <button className="px-4 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white rounded-full transition border border-white/10">
-                <i className="ri-heart-line text-xl"></i>
+                <i className="ri-heart-line text-l"></i>
               </button>
             </div>
           </motion.div>

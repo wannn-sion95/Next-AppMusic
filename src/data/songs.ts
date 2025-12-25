@@ -251,4 +251,12 @@ export const songs: Song[] = [
     src: "/music/sally.mp3",
     lrc: "/lyrics/sally.lrc",
   },
+  {
+    id: 30,
+    title: "So Easy (To Fall In Love)",
+    artist: "Olivia Dean",
+    cover: "/images/easy.jpg",
+    src: "/music/easy.mp3",
+    lrc: "/lyrics/easy.lrc",
+  },
 ];
