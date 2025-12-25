@@ -34,7 +34,7 @@ export default function HeroCarousel({ songs, onPlay }: HeroCarouselProps) {
   const currentSong = featuredSongs[currentIndex];
 
   return (
-    <div className="relative w-full h-55 md:h-65 mb-8 group">
+    <div className="relative w-full h-75 md:h-95 mb-8 group">
       {/* AREA GAMBAR & ANIMASI */}
       <div className="relative w-full h-full rounded-[40px] overflow-hidden shadow-2xl border border-white/10">
         <AnimatePresence mode="wait">
@@ -80,10 +80,7 @@ export default function HeroCarousel({ songs, onPlay }: HeroCarouselProps) {
                 onClick={() => onPlay(currentSong)}
                 className="px-4 py-2 bg-[#22c527] hover:bg-[#1fbd24] text-black font-bold rounded-full transition transform hover:scale-105 flex items-center gap-2 shadow-[0_0_20px_rgba(34,197,39,0.4)]"
               >
-                <i className="ri-play-fill text-sm"></i> Listen Now
-              </button>
-              <button className="px-4 py-3 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white rounded-full transition border border-white/10">
-                <i className="ri-heart-line text-sm"></i>
+                <i className="ri-play-fill text-xs"></i> Listen Now
               </button>
             </div>
           </motion.div>
