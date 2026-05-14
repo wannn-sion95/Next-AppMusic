@@ -4,7 +4,7 @@
   
   <p>
     A modern, premium web music player inspired by Spotify.<br>
-    Built with <strong>Next.js 14</strong>, <strong>Supabase</strong>, and <strong>Framer Motion</strong>.
+    Built with <strong>Next.js 16.1.1</strong>, <strong>Supabase</strong>, and <strong>Framer Motion</strong>.
   </p>
 
   <p>
