@@ -1,6 +1,6 @@
 <div align="center">
 
-![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:121212,40:1DB954,70:6C63FF,100:191414&height=280&section=header&text=OneMusic&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modern%20Music%20Streaming%20Platform&descAlignY=62&descSize=22)
+![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1DB954&height=180&section=header&text=OneMusic&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=Enjoy%20Your%20Day%20Platform&descAlignY=68&descSize=16)
 
 ![Music](https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
 
