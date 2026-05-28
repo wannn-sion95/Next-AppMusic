@@ -1,5 +1,6 @@
 <div align="center">
 
+![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:121212,40:1DB954,70:6C63FF,100:191414&height=280&section=header&text=OneMusic&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Modern%20Music%20Streaming%20Platform&descAlignY=62&descSize=22)
 
 ![Music](https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
 
