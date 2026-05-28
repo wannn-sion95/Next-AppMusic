@@ -1,6 +1,8 @@
 <div align="center">
 
-  <h1>🎵 One Music</h1>
+
+![Music](https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
+
   
   <p>
     A modern, premium web music player inspired by Spotify.<br>
