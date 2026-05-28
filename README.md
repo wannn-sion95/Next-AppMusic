@@ -1,9 +1,7 @@
 <div align="center">
 
-![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1DB954&height=180&section=header&text=OneMusic&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=%20%20%20P&descAlignY=68&descSize=16)
-
+![OneMusic Banner](https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:1DB954&height=180&section=header&text=OneMusic&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=45&desc=%20%20%20&descAlignY=68&descSize=16)
 ![Music](https://img.shields.io/badge/Music-Streaming-1DB954?style=for-the-badge&logo=spotify&logoColor=white)
-
   
   <p>
     A modern, premium web music player inspired by Spotify.<br>
